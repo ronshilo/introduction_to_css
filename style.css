@@ -1,24 +1,53 @@
 *
 {
-    padding: 0px;
-    margin: 0px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin: 0;
 }
 
-/*body*/
+body
 {
-    background-color: azure;
+    background-color: gray;
 }
 
-ul
+li
 {
-    background-color: #fff89f;
+    font-family: sans-serif;
+}
+
+.menu
+{
+    /*background-color: #fff89f;*/
     list-style-type: none;
+    font-family: monospace;
 }
 
-ul li:nth-child(3)
+.menu li:hover
+{
+    background-color: yellow;
+}
+
+ul li:nth-child(2)
+{
+    visibility: hidden;
+}
+
+.menu li
 {
     background-color: azure;
+    border-style: solid;
     padding: 10px;
     margin: 20px;
+    margin-left: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: black;
 }
 
